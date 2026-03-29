@@ -10,4 +10,4 @@ A. Zheng<sup>*</sup>, **Y.-S. Tai**<sup>*</sup>, R. Yeh, "Designing to Forget: D
 
 <small><i>* Denotes equal contribution</i></small>
 
-[View on arXiv](https://arxiv.org/abs/2603.22870)
+[Paper link](https://arxiv.org/abs/2603.22870)
