@@ -6,20 +6,26 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap" style="margin-bottom: 20px;">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
 {% include base_path %}
 
-<div class="archive">
-{% for post in site.publications reversed %}
-  <div class="list__item" style="margin-bottom: 20px;">
-    <h2 class="archive__item-title" style="margin-bottom: 5px;">
-      <a href="{{ post.link }}">{{ post.title }}</a>
-    </h2>
-    <div class="archive__item-excerpt">
-      {{ post.excerpt | markdownify }}
-    </div>
+<div id="main" role="main" style="margin-left: 0; padding-left: 0;">
+  <div class="archive">
+    {% for post in site.publications reversed %}
+      <div class="list__item" style="margin-bottom: 30px; list-style-type: none;">
+        <h2 class="archive__item-title" style="margin-bottom: 8px;">
+          {% if post.link %}
+            <a href="{{ post.link }}">{{ post.title }}</a>
+          {% else %}
+            <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+          {% endif %}
+        </h2>
+        <div class="archive__item-excerpt" style="line-height: 1.5;">
+          {{ post.excerpt | markdownify }}
+        </div>
+      </div>
+    {% endfor %}
   </div>
-{% endfor %}
 </div>
