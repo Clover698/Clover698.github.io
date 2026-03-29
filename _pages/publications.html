@@ -11,6 +11,15 @@ author_profile: true
 
 {% include base_path %}
 
+<div class="archive">
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  <div class="list__item" style="margin-bottom: 20px;">
+    <h2 class="archive__item-title" style="margin-bottom: 5px;">
+      <a href="{{ post.link }}">{{ post.title }}</a>
+    </h2>
+    <div class="archive__item-excerpt">
+      {{ post.excerpt | markdownify }}
+    </div>
+  </div>
 {% endfor %}
+</div>
