@@ -7,13 +7,12 @@
 # server process.
 
 # Basic Site Settings
-# Basic Site Settings
 locale           : "en-US"
 site_theme       : "default"
-title            : "Yu-Shan (Clover) Tai | Research Scientist Portfolio"
+title            : "Yu-Shan (Clover) Tai"
 title_separator  : "-"
-name             : &name "Yu-Shan (Clover) Tai"
-description      : &description "PhD Candidate at NTU and Visiting Scholar at Purdue specializing in Computer Vision and Efficient AI."
+name             : "Yu-Shan (Clover) Tai"
+description      : "PhD at NTU and Visiting Scholar at Purdue."
 url              : "https://clover698.github.io"
 baseurl          : ""
 repository       : "clover698/clover698.github.io"
