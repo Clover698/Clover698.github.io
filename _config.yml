@@ -7,16 +7,16 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Yu-Shan (Clover) Tai
-title_separator          : "-"
-name                     : &name "Yu-Shan (Clover) Tai"
-description              : &description "PhD at NTU and Visiting Scholar at Purdue specializing in Computer Vision and Efficient AI."   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : "https://clover698.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+# Basic Site Settings
+locale           : "en-US"
+site_theme       : "default"
+title            : "Yu-Shan (Clover) Tai | Research Scientist Portfolio"
+title_separator  : "-"
+name             : &name "Yu-Shan (Clover) Tai"
+description      : &description "PhD Candidate at NTU and Visiting Scholar at Purdue specializing in Computer Vision and Efficient AI."
+url              : "https://clover698.github.io"
+baseurl          : ""
+repository       : "clover698/clover698.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
