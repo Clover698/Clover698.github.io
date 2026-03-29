@@ -9,56 +9,28 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+You can also download my full CV as a PDF [here](/files/Yu-Shan_Tai_CV.pdf).
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Education
+* **Ph.D. in Electronics Engineering (IC & Systems)**
+  * National Taiwan University (NTU), 2021 – Present
+* **B.S. in Electrical Engineering**
+  * National Taiwan University (NTU), 2017 – 2021
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Experience
+* **Visiting Scholar**, Purdue University (Aug 2025 - Jul 2026)
+  * Focus on semi-parametric models and machine unlearning to enhance AI privacy.
+* **Doctoral Research | Industrial-Academic Cooperation**, NTU (Jun 2021 - Present)
+  * (Novatek) Enhance vision model efficiency via model compression, including CNNs, ViTs, DMs, and VAR models. 
+  * (ASUS) Diffusion-based Photo Editing specifically optimized for mobile devices.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Technical Skills
+* **Core AI:** Model Compression, Quantization, Pruning, Inference Acceleration, Machine Unlearning.
+* **Software:** Python, PyTorch, TensorFlow, C++, Linux, Git, MATLAB.
+* **Hardware/Systems:** Verilog.
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Honors & Awards
+* **NSTC Ph.D. Study Abroad Program:** Funding for visiting scholarship at Purdue University (2025).
+* **Synopsys - Prof. Chung Laung Liu Ph.D. Scholarship:** Advanced research award (2022).
+* **IC Design Contest - Third Prize:** National-level standard digital circuit design competition (2022).
+* **Elite Ph.D. Scholarship:** Only 8 recipients in the College of EECS (2021-2025).
