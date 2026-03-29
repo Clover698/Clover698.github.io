@@ -6,26 +6,28 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap" style="margin-bottom: 25px;">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div style="margin-bottom: 25px;">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
 {% include base_path %}
 
-<div id="main" role="main" style="margin-left: 0; padding-left: 0;">
-  <div class="archive" style="margin-left: 0; padding-left: 0;">
-    {% for post in site.publications reversed %}
-      <div class="list__item" style="margin-bottom: 40px; list-style-type: none; margin-left: 0; padding-left: 0;">
-        <h2 class="archive__item-title" style="margin-bottom: 10px; margin-left: 0;">
-          {% if post.link %}
-            <a href="{{ post.link }}" style="text-decoration: none;">{{ post.title }}</a>
-          {% else %}
-            <a href="{{ base_path }}{{ post.url }}" style="text-decoration: none;">{{ post.title }}</a>
-          {% endif %}
-        </h2>
-        <div class="archive__item-excerpt" style="margin-left: 0; padding-left: 0; line-height: 1.6;">
-          {{ post.excerpt | markdownify | replace: '&lt;', '<' | replace: '&gt;', '>' }}
-        </div>
+<style>
+  /* This kills the left space and fixes alignment */
+  .publication-list { margin-left: 0 !important; padding-left: 0 !important; }
+  .pub-item { margin-bottom: 40px; list-style: none; }
+  .pub-title { margin-bottom: 5px; font-size: 1.25em; font-weight: bold; }
+  .pub-excerpt { line-height: 1.5; color: #ffffff; }
+</style>
+
+<div class="publication-list">
+  {% for post in site.publications reversed %}
+    <div class="pub-item">
+      <div class="pub-title">
+        <a href="{{ post.link | default: post.url }}">{{ post.title }}</a>
       </div>
-    {% endfor %}
-  </div>
+      <div class="pub-excerpt">
+        {{ post.excerpt }}
+      </div>
+    </div>
+  {% endfor %}
 </div>
