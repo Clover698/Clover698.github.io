@@ -3,8 +3,6 @@ title: "Designing to Forget: Deep Semi-parametric Models for Unlearning"
 collection: publications
 permalink: /publication/2026-06-01-designing-to-forget
 date: 2026-06-01
-paperurl: 'https://arxiv.org/abs/2603.22870'
+paperurl: 'https://arxiv.org/abs/2603.22870R'
+excerpt: 'A. Zheng<sup>*</sup>, **Y.-S. Tai**<sup>*</sup>, R. Yeh, "Designing to Forget: Deep Semi-parametric Models for Unlearning," *CVPR*, 2026.<br><small><i>* Denotes equal contribution</i></small>'
 ---
-A. Zheng<sup>*</sup>, **Y.-S. Tai**<sup>*</sup>, R. Yeh, "Designing to Forget: Deep Semi-parametric Models for Unlearning," *CVPR*, 2026.
-
-<small><i>* Denotes equal contribution</i></small>
