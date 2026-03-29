@@ -9,8 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-You can also download my full CV as a PDF [here](/files/Yu-Shan_Tai_CV.pdf).
-
 ## Education
 * **Ph.D. in Electronics Engineering (IC & Systems)**
   * National Taiwan University (NTU), 2021 – Present
@@ -20,8 +18,8 @@ You can also download my full CV as a PDF [here](/files/Yu-Shan_Tai_CV.pdf).
 ## Experience
 * **Visiting Scholar**, Purdue University (Aug 2025 - Jul 2026)
   * Focus on semi-parametric models and machine unlearning to enhance AI privacy.
-* **Doctoral Research | Industrial-Academic Cooperation**, NTU (Jun 2021 - Present)
-  * (Novatek) Enhance vision model efficiency via model compression, including CNNs, ViTs, DMs, and VAR models. 
+* **Doctoral Research - Industrial-Academic Cooperation**, NTU (Jun 2021 - Present)
+  * (Novatek) Enhance vision model efficiency via model compression, including CNNs, ViTs, DMs, and VAR. 
   * (ASUS) Diffusion-based Photo Editing specifically optimized for mobile devices.
 
 ## Technical Skills
