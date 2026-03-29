@@ -3,8 +3,6 @@ title: "Learnable mixed-precision and dimension reduction co-design for low-stor
 collection: publications
 permalink: /publication/2022-10-01-learnable-mixed-precision
 date: 2022-10-01
-venue: 'IEEE SiPS'
+link: 'https://arxiv.org/abs/2207.07931'
+excerpt: '<b>Yu-Shan Tai</b>, Cheng-Yang Chang, Chieh-Fang Teng, An-Yeu Wu<br>IEEE Workshop on Signal Processing Systems (<i>SiPS</i>), 2022.'
 ---
-**Y.-S. Tai**, C.-Y. Chang, C.-F. Teng, A.-Y. Wu, "Learnable mixed-precision and dimension reduction co-design for low-storage activation," 2022 IEEE Workshop on Signal Processing Systems (SiPS).
-
-[Paper link](https://arxiv.org/abs/2207.07931)
